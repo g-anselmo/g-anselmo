@@ -1,50 +1,41 @@
 # Hi, I'm Gustavo Anselmo 👋
 
-### Data Analyst | Python · SQL · Power BI
+### Data Analyst → Data Engineering | Python (pandas) · SQL · Docker
 
-I turn messy business data into clear insights. I build **end-to-end analytics projects**: data cleaning in Python (pandas), analysis in SQL (PostgreSQL), data modelling, DAX and Power BI dashboards that track performance against targets.
+I build **data pipelines end to end**: messy raw exports cleaned and validated in Python (pandas), loaded into PostgreSQL, analysed with SQL, and packaged so anyone can reproduce them with one command.
 
 Portuguese/Brazilian | Based in Warsaw, Poland
 
 ---
 
-## 📊 Portfolio
+## 🗂️ Projects
 
-| Project | Industry | Highlights |
+| Project | Pipeline | Highlights |
 |---|---|---|
-| [**Allegro E-commerce Sales Analytics**](https://github.com/g-anselmo/allegro-sales-analytics) | E-commerce (Poland) | Messy order export (20,300 rows) → Python cleaning (9 data-quality problems fixed, incl. Polish number formats and 21 category spellings) → PostgreSQL in **Docker** (tables created and loaded with one command) → 6 SQL business questions incl. conditional aggregation → 5-page Power BI report |
-| [**CD PROJEKT Game Sales Analytics**](https://github.com/g-anselmo/cdp-sales-analytics) | Gaming (Poland) | Messy sales export (30,350 rows) → Python cleaning (5 data-quality problems fixed) → PostgreSQL → 8 SQL business questions → 5-page Power BI report with 71 DAX measures, revenue vs target and year-over-year comparison |
-
-| Allegro E-commerce Sales Analytics | CD PROJEKT Game Sales Analytics |
-|---|---|
-| ![Allegro Dashboard](https://github.com/g-anselmo/allegro-sales-analytics/blob/main/docs/screenshots/powerbi_02_overview.png?raw=true) | ![CD PROJEKT Dashboard](https://github.com/g-anselmo/cdp-sales-analytics/blob/main/docs/screenshots/powerbi_02_overview.png?raw=true) |
+| [**Allegro E-commerce Sales Analytics**](https://github.com/g-anselmo/allegro-sales-analytics) | CSV → pandas → PostgreSQL in Docker → SQL | 20,300 messy rows → **9 data-quality problems fixed** (duplicates, Polish number formats, 21 spellings of 6 categories, invalid quantities) → database created and loaded automatically with `docker compose up` → 6 SQL business questions incl. conditional aggregation |
+| [**CD PROJEKT Game Sales Analytics**](https://github.com/g-anselmo/cdp-sales-analytics) | CSV → pandas → PostgreSQL → SQL | 30,350 messy rows → **5 data-quality problems fixed** → typed PostgreSQL tables with row-count checks → 8 SQL business questions (`JOIN`, `HAVING`, `CASE WHEN`) |
 
 ---
 
 ## 🛠️ Tech stack
 
-**Programming & data**
+**Python & data**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-**Databases**
+**Databases & engineering**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-**BI & analytics**
+**Now learning:** dbt · DuckDB
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-01672C?style=for-the-badge)
-![Power Query](https://img.shields.io/badge/Power%20Query-217346?style=for-the-badge)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-
-**Core skills:** Data cleaning (pandas) | SQL in PostgreSQL | Reproducible databases with Docker | SQL analysis (aggregations, joins, CASE, conditional aggregation) | Data modelling (star schema) | DAX measures & time intelligence | KPI design | Target vs actual reporting | Dashboard design
+**Core skills:** Data cleaning and validation (pandas) | SQL in PostgreSQL (aggregations, joins, `CASE`, conditional aggregation) | Loading data with `COPY` | Reproducible databases with Docker | Version control with Git
 
 ---
 
