@@ -12,22 +12,16 @@ I turn messy business data into clear insights. I build **end-to-end analytics p
 
 | Project | Industry | Highlights |
 |---|---|---|
-| [**CD PROJEKT Game Sales Analytics**](https://github.com/gustavo03anselmo-afk/cdp-sales-analytics) | Gaming (Poland) | Messy sales export (30,350 rows) → Python cleaning (5 data-quality problems fixed) → PostgreSQL → 8 SQL business questions → 5-page Power BI report with 71 DAX measures, revenue vs target and year-over-year comparison |
+| [**Allegro E-commerce Sales Analytics**](https://github.com/g-anselmo/allegro-sales-analytics) | E-commerce (Poland) | Messy order export (20,300 rows) → Python cleaning (9 data-quality problems fixed, incl. Polish number formats and 21 category spellings) → PostgreSQL in **Docker** (tables created and loaded with one command) → 6 SQL business questions incl. conditional aggregation → 5-page Power BI report |
+| [**CD PROJEKT Game Sales Analytics**](https://github.com/g-anselmo/cdp-sales-analytics) | Gaming (Poland) | Messy sales export (30,350 rows) → Python cleaning (5 data-quality problems fixed) → PostgreSQL → 8 SQL business questions → 5-page Power BI report with 71 DAX measures, revenue vs target and year-over-year comparison |
 
-| CD PROJEKT Game Sales Analytics |
-|---|
-| ![CD PROJEKT Dashboard](https://github.com/gustavo03anselmo-afk/cdp-sales-analytics/blob/main/docs/screenshots/powerbi_02_overview.png?raw=true) |
+| Allegro E-commerce Sales Analytics | CD PROJEKT Game Sales Analytics |
+|---|---|
+| ![Allegro Dashboard](https://github.com/g-anselmo/allegro-sales-analytics/blob/main/docs/screenshots/powerbi_02_overview.png?raw=true) | ![CD PROJEKT Dashboard](https://github.com/g-anselmo/cdp-sales-analytics/blob/main/docs/screenshots/powerbi_02_overview.png?raw=true) |
 
 ---
 
 ## 🛠️ Tech stack
-
-**BI & analytics**
-
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-01672C?style=for-the-badge)
-![Power Query](https://img.shields.io/badge/Power%20Query-217346?style=for-the-badge)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 
 **Programming & data**
 
@@ -41,12 +35,20 @@ I turn messy business data into clear insights. I build **end-to-end analytics p
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-**Core skills:** Data cleaning | SQL analysis (aggregations, joins, CASE) | Data modelling (star schema) | DAX measures & time intelligence | KPI design | Target vs actual reporting | Dashboard design
+**BI & analytics**
+
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-01672C?style=for-the-badge)
+![Power Query](https://img.shields.io/badge/Power%20Query-217346?style=for-the-badge)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+
+**Core skills:** Data cleaning (pandas) | SQL in PostgreSQL | Reproducible databases with Docker | SQL analysis (aggregations, joins, CASE, conditional aggregation) | Data modelling (star schema) | DAX measures & time intelligence | KPI design | Target vs actual reporting | Dashboard design
 
 ---
 
 ## 📫 Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/g-anselmo/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gustavo03anselmo-afk)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/g-anselmo)
